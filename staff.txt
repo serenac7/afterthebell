@@ -12,7 +12,7 @@
 		<div class="col-md-6 col-sm-12 col-xs-12">
 			<p>Hi, my name is Mandy and I am the Program Owner and founder of After The Bell Inc since 2006. I'm also one
 			of the Supportive Child Care Workers in the center. I have worked with school-aged children for the past 16
-			years in all aspects of their care. I am the mother of a teenage boy and two step-children.
+			years in all aspects of their care. I am the mother of a teenage boy and also have two dogs.
 			<br />I started my career in Edmonton, AB where I gained extensive experience managing and operating school-aged
 			child care facilities. In 2004 I was blessed with the birth of my son and felt it was necessary for him to be
 			raised knowing his family, so we relocated back to Nova Scotia. My staff and I look forward to working with you
@@ -377,6 +377,88 @@
 
 	<div class="row">
 		<div class="col-lg-12 col-lg-offset-2">
+		</div>
+	</div>
+</div>
+
+<!-- Sarah -------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup"id="template">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> Sarah </h3> <h5> Staff </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/sarah.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hi, my name is Sarah. I am an Early Years Childcare staff at ATB, I have worked with children for
+			over 6 years and have gained knowledge and passion for teaching. At ATB children enjoy a nurturing 
+			environment which includes fun activities and learning.</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - Bachelors in Psychology and Sociology
+			<br />  - ECE - Entry Level
+			<br />  - Mental Health First Aid Training
+			<br />  - Child Care Emergency First Aid, CPR, and AED training
+			<br />  - Emergency First Aid Responder - St. John Ambulance</p>
+		</div>
+	</div>
+</div>
+
+<!-- Melissa ------------------------------------------------------------------------------------------------------------------------------------------>
+<div class="popup"id="template">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> Melissa </h3> <h5> Staff </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/melissa.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hi. I'm Melissa. I grew up in the local area. I knew at a young age I wanted to work with 
+			children. I am the oldest of 10 grandchildren on my dad's side of family. I could always be found 
+			looking after them. I have been an ECE for 4 and a half years. I have worked with children of various 
+			ages. I love doing crafts, sensory and science activities. The messier the better. I look forward to 
+			helping the children at ATB grow into the best they can be. All children deserve to be loved and 
+			nurtured.</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - Child Care Emergency First Aid and CPR Training
+			<br />  - Level 3 ECE</p>
+		</div>
+	</div>
+</div>
+
+<!-- Megan -------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup"id="template">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> NAME </h3> <h5> SUBFRAME </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/no_image.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>My name is Megan Wallace and I am an ECE at After the Bell Inc. I've recently moved back from 
+			Alberta after spending 4 years there. I have a beautiful 4-year-old son named James, that is the 
+			light of my life.  I am currently enrolled in the Nova Scotia community college Akerley campus and 
+			studying Early childhood Education. I've started my career in child care about 1 year ago now, but 
+			have always enjoyed working with children.  I started working at After the Bell Inc. in March 2019 
+			and I've loved every second and can't wait for many more years to come.  Children have a natural 
+			wonder and curiosity when it comes to everyday life and their infectious zest for learning new things 
+			makes it a joy to work with them.  I love being able to see the children grow and develop into their 
+			own unique beings. It is such a rewarding job!</p>
 		</div>
 	</div>
 </div>
