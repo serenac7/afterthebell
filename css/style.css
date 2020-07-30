@@ -42,8 +42,6 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  /*Made font of Navigation links bigger */
-  font-size: 21px;
 }
 
 a:hover,
@@ -76,6 +74,12 @@ a:focus {
 
 .navbar-brand:focus {
   outline: 0;
+}
+.nav {
+  font-size: 21px;
+}
+.nav ul {
+  font-size: 21px;
 }
 
 .nav.navbar-nav {
