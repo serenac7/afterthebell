@@ -1672,7 +1672,8 @@ Parallax
 
   .owner-image {
     border-radius: 2%;
-    width: 40%;
+    width: 70%;
+    height: 70%;
   }
 }
 
