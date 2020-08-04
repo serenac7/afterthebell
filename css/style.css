@@ -147,6 +147,8 @@ a:focus {
   padding: 4px 6px;
   font-size: 14px;
   color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-toggle:focus,
@@ -1302,6 +1304,14 @@ Parallax
   }
 }
 /****** changes mobile menu to purple ******/
+
+/* centers mobile icon in middle of containter */
+@media (max-width: 767px) {
+  .navbar-mobile-center {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 @media (max-width: 768px) {
   .team.boxed-grey {
