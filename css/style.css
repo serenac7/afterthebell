@@ -137,6 +137,8 @@ a:focus {
   padding: 4px 6px;
   font-size: 14px;
   color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-toggle:focus,
@@ -593,6 +595,10 @@ hr {
   display: flex;
   justify-content: center;
   margin-bottom: 3%;
+  /* added to fix safari spacing bug */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .course_text_container {
@@ -781,6 +787,9 @@ hr {
   justify-content: center;
   padding-bottom: 8%;
   margin: 0% 5%;
+  /* added to fix safari spacing bug */
+  flex-direction: column;
+  align-items: center;
 }
 
 .school_bus_image {
@@ -909,10 +918,18 @@ hr {
   padding-top: 8%;
 }
 
-@media (max-width: 375px) {
-  .video {
-    width: 90%;
-  }
+.video-wrapper {
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  padding-bottom: calc(var(--aspect-ratio, 0.5625) * 100%);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* ===========================
@@ -1260,6 +1277,23 @@ Parallax
 
   .intro-text {
     font-size: 25px;
+  }
+}
+
+/****** changes mobile menu to purple ******/
+@media (max-width: 767px) {
+  .fa-bars {
+    color: #608;
+    font-size: 2.4rem;
+  }
+}
+/****** changes mobile menu to purple ******/
+
+/* centers mobile icon in middle of containter */
+@media (max-width: 767px) {
+  .navbar-mobile-center {
+    display: flex;
+    justify-content: center;
   }
 }
 
