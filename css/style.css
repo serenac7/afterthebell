@@ -27,16 +27,6 @@ h6 {
   letter-spacing: 1px;
 }
 
-/* p {
-  margin: 0 0 20px;
-  font-size: 16px;
-  line-height: 1.6em;
-}
-
-p.lead {
-  font-weight: 600;
-} */
-
 a {
   color: #608;
   -webkit-transition: all 0.2s ease-in-out;
@@ -352,12 +342,6 @@ hr {
 
 .intro-text {
   font-size: 18px;
-}
-
-.intro-slogan {
-  color: #de9a1a;
-  font-size: 4.8rem;
-  text-shadow: 2px 2px #fff;
 }
 
 /* New text intro-slogan  */
@@ -1722,7 +1706,8 @@ Parallax
 
   .owner-image {
     border-radius: 2%;
-    width: 40%;
+    width: 70%;
+    height: 70%;
   }
 }
 
