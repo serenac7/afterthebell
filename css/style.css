@@ -1463,6 +1463,8 @@ Parallax
   .philosophy_backpack_wrapper {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .philosophy_backpack_container {
