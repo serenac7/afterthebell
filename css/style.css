@@ -27,16 +27,6 @@ h6 {
   letter-spacing: 1px;
 }
 
-/* p {
-  margin: 0 0 20px;
-  font-size: 16px;
-  line-height: 1.6em;
-}
-
-p.lead {
-  font-weight: 600;
-} */
-
 a {
   color: #608;
   -webkit-transition: all 0.2s ease-in-out;
@@ -147,6 +137,8 @@ a:focus {
   padding: 4px 6px;
   font-size: 14px;
   color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-toggle:focus,
@@ -352,14 +344,8 @@ hr {
   font-size: 18px;
 }
 
-.intro-slogan {
-  color: #de9a1a;
-  font-size: 4.8rem;
-  text-shadow: 2px 2px #fff;
-}
-
-/* New text intro-slogan  */
-.intro-slogan {
+/* New text slogan-text  */
+.slogan-text {
   width: 100%;
   text-align: center;
   position: absolute;
@@ -436,17 +422,6 @@ hr {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/daycare_pencils_large.png) no-repeat center;
   padding: 20% 20%;
-}
-
-.mission_text {
-  width: 80%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.9);
 }
 
 .philosophy_wrapper {
@@ -609,6 +584,10 @@ hr {
   display: flex;
   justify-content: center;
   margin-bottom: 3%;
+  /* added to fix safari spacing bug */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .course_text_container {
@@ -797,6 +776,9 @@ hr {
   justify-content: center;
   padding-bottom: 8%;
   margin: 0% 5%;
+  /* added to fix safari spacing bug */
+  flex-direction: column;
+  align-items: center;
 }
 
 .school_bus_image {
@@ -907,17 +889,6 @@ hr {
   margin-top: 5%;
 }
 
-.pet-text {
-  width: 80%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.9);
-}
-
 /* ===========================
 --- Video
 ============================ */
@@ -925,10 +896,18 @@ hr {
   padding-top: 8%;
 }
 
-@media (max-width: 375px) {
-  .video {
-    width: 90%;
-  }
+.video-wrapper {
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  padding-bottom: calc(var(--aspect-ratio, 0.5625) * 100%);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* ===========================
@@ -1279,6 +1258,23 @@ Parallax
   }
 }
 
+/****** changes mobile menu to purple ******/
+@media (max-width: 767px) {
+  .fa-bars {
+    color: #608;
+    font-size: 2.4rem;
+  }
+}
+/****** changes mobile menu to purple ******/
+
+/* centers mobile icon in middle of containter */
+@media (max-width: 767px) {
+  .navbar-mobile-center {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media (max-width: 768px) {
   .team.boxed-grey {
     margin-bottom: 30px;
@@ -1329,7 +1325,7 @@ Parallax
 }
 
 @media (max-width: 480px) {
-  .intro-slogan {
+  .slogan-text {
     font-size: 2.1rem;
     width: 70%;
     text-align: center;
@@ -1342,34 +1338,6 @@ Parallax
   }
 }
 
-/****** About Us ******/
-@media (max-width: 767px) {
-  .mission_text {
-    font-size: 2.4rem;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.9);
-  }
-}
-
-@media (max-width: 480px) {
-  .mission_text {
-    font-size: 1.6rem;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.9);
-  }
-}
 
 /* About - mission statement small & medium image */
 @media (max-width: 500px) {
@@ -1429,6 +1397,8 @@ Parallax
   .philosophy_backpack_wrapper {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .philosophy_backpack_container {
@@ -1688,7 +1658,8 @@ Parallax
 
   .owner-image {
     border-radius: 2%;
-    width: 40%;
+    width: 70%;
+    height: 70%;
   }
 }
 
@@ -1784,10 +1755,6 @@ a.footer {
 
 /****** No Pets Policy ******/
 @media (max-width: 500px) {
-  .pet-text {
-    font-size: 2.1rem;
-  }
-
   .pet-policy {
     width: 100%;
     position: relative;
