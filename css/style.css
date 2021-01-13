@@ -356,6 +356,11 @@ hr {
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.9);
 }
 
+.slogan-text a {
+	color: white;
+	text-decoration: underline;
+}
+
 .intro-slogan-kids {
   color: #de9a1a;
   font-size: 4.8rem;
@@ -406,9 +411,9 @@ hr {
 /* ===========================
 --- New About Us Section
 ============================ */
-.mission_wrapper {
-  display: flex;
-  padding: 8%;
+.one-liner-wrapper{
+	display: flex;
+	padding: 8%;
 }
 
 .mission_container {
@@ -424,10 +429,6 @@ hr {
   padding: 20% 20%;
 }
 
-.philosophy_wrapper {
-  display: flex;
-  padding: 8%;
-}
 
 .philosophy_backpack_wrapper {
   display: flex;
@@ -567,11 +568,6 @@ hr {
 /* ===========================
 --- New Courses Section
 ============================ */
-.course_wrapper {
-  display: flex;
-  padding: 8%;
-}
-
 .course_container {
   width: 100%;
   background: white;
@@ -887,6 +883,15 @@ hr {
     url(../img/service-dog.png) no-repeat center;
   padding: 20% 20%;
   margin-top: 5%;
+}
+
+.one-liner-policy {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(rgba(102, 0, 136, 0.75), rgba(102, 0, 136, 0.75)) center;
+  padding: 10% 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /* ===========================
