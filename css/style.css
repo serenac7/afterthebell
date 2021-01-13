@@ -656,7 +656,7 @@ hr {
 }
 
 .owner-text-container {
-  padding: 0% 5%;
+  padding: 5% 10%;
   display: flex;
   flex-direction: column;
 }
@@ -690,6 +690,7 @@ hr {
 .owner-image-center {
   display: flex;
   justify-content: center;
+  padding: 5%;
 }
 
 .owner-image {
@@ -716,9 +717,6 @@ hr {
 .testimonials-header {
   width: 100%;
   text-align: center;
-}
-
-.testimonials-header h1 {
   padding: 5%;
 }
 
@@ -770,7 +768,7 @@ hr {
 .school_bus_wrapper {
   display: flex;
   justify-content: center;
-  padding-bottom: 8%;
+  padding-bottom: 5%;
   margin: 0% 5%;
   /* added to fix safari spacing bug */
   flex-direction: column;
